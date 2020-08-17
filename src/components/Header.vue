@@ -1,5 +1,4 @@
 <template>
-
     <v-app-bar
       absolute
       color='#ffeb3b'

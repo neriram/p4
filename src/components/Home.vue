@@ -1,22 +1,22 @@
 <template>
-  <div>
+  <v-app>
     <Header />
     <v-container>
     
-      <v-col cols="12" sm="6" md="8">
+      <v-row cols="12" sm="6" md="8">
         <!-- <v-card class="ma-4" outlined tile> -->
           
           <Carousel />
         <!-- </v-card> -->
-      </v-col>
+      </v-row>
      
       <v-row cols="6" md="4">
         <!-- <v-card class="pa-2" outlined tile> -->
-          <h1 class="tagline">bbBook: for all of baby's precious milestones</h1>
+          <h1>bbBook: for all of baby's precious milestones</h1>
         <!-- </v-card> -->
       </v-row>
     </v-container>
-  </div>
+  </v-app>
 </template>
 
 
@@ -33,4 +33,7 @@ export default {
 };
 </script>
 <style scoped>
+.tagline {
+  color: red
+}
 </style>
