@@ -9,8 +9,9 @@
       
       <v-toolbar-title class="white--text"><span class="font-weight-bold">bbBook</span></v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn color='#ffeb3b'>
+      <v-btn color='#ffeb3b' to="/login">
       <v-icon>mdi-account-circle</v-icon>
+      <router-view/>
             </v-btn>
 
     </v-app-bar>

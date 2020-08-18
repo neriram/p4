@@ -31,10 +31,10 @@
                       target="_blank"
                       v-on="on"
                     >
-                      <v-icon>mdi-code-tags</v-icon>
+                      
                     </v-btn>
                   </template>
-                  <span>Source</span>
+                  
                 </v-tooltip>
               </v-toolbar>
               <v-card-text>
