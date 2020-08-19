@@ -13,7 +13,7 @@
           dark
           flat
         >
-          <v-toolbar-title>Chucky's Milestones</v-toolbar-title>
+          <v-toolbar-title>Chucky's Physical Milestones</v-toolbar-title>
         </v-toolbar>
       </template>
 
@@ -80,7 +80,7 @@
           dark
           flat
         >
-          <v-toolbar-title class="subheading">New Milestones</v-toolbar-title>
+          <v-toolbar-title class="subheading">Chucky's Developmental Milestones</v-toolbar-title>
         </v-toolbar>
       </template>
     </v-data-iterator>
@@ -91,37 +91,47 @@
 <script>
   export default {
     data: () => ({
-      itemsPerPage: 3,
+      itemsPerPage: 4,
       items: [
         {
           name: 'Birth Details',
           lbs: '6.2 oz',
-          cm: 6.0,
-          cir: 16,
+          cm: 15.0,
+          cir: 11,
           date: '11/18',
-          time: '8:50',
+          time: '8:50 pm',
           hospital: 'Swedish',
           doc: 'Dr. Harrison',
         },
         {
           name: '2 months',
-        //   calories: 237,
-        //   fat: 9.0,
-        //   carbs: 37,
-        //   protein: 4.3,
-        //   sodium: 129,
-        //   calcium: '8%',
-        //   iron: '1%',
+          lbs: '8.4 oz',
+          cm: 6.0,
+          cir: 13,
+          date: '1/18',
+          time: '11:00',
+          hospital: 'PacMed',
+          doc: 'Dr. Patel',
         },
         {
           name: '4 months',
-        //   calories: 262,
-        //   fat: 16.0,
-        //   carbs: 23,
-        //   protein: 6.0,
-        //   sodium: 337,
-        //   calcium: '6%',
-        //   iron: '7%',
+          lbs: '6.2 oz',
+          cm: 6.0,
+          cir: 14,
+          date: '3/18',
+          time: '8:30',
+          hospital: 'PacMed',
+          doc: 'Dr. Patel',
+        },
+        {
+          name: '6 months',
+          lbs: '6.2 oz',
+          cm: 6.0,
+          cir: 18,
+          date: '5/18',
+          time: '10:00',
+          hospital: 'PacMed',
+          doc: 'Dr. Patel',
         },
       ],
     }),
@@ -129,7 +139,7 @@
 </script>
 <style scoped>
 #layout {
-    margin-top: 100px
+    margin-top: 10px
 }
 #header-top {
     background-color:#00BCD4

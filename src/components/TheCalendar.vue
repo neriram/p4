@@ -1,8 +1,10 @@
 <template>
 <v-app>
-  <v-row justify="left">
-    <v-date-picker id="cal" v-model="picker"></v-date-picker>
+    <v-card id="cal" >
+  <v-row justify="center">
+    <v-date-picker v-model="picker"></v-date-picker>
   </v-row>
+    </v-card>
 </v-app>
 </template>
 
@@ -17,11 +19,12 @@
 </script>
 
 <style scoped>
-#cal {
+/* #cal {
     margin-top: 10px;
-    margin-left: 10%;
-    position: absolute
+    margin-left: 50%;
+    display: inline-block;
+   
 
-}
+} */
 
 </style>
