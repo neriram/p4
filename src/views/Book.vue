@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>Your baby's book</h1>
-  </div>
+<TheCalendar />
 </template>
+
+<script>
+import TheCalendar from '@/components/TheCalendar'
+
+export default {
+    components: {
+        TheCalendar
+    }
+}
+</script>

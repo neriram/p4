@@ -12,5 +12,11 @@ export default new Vuetify({
         warning: '#ff5722',
         info: '#8bc34a',
         success: '#4caf50'
+        },
+        dark: true,
+        themes: {
+          dark: {
+            background: '#ffeb3b'
+          }
         }
 });
