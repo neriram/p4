@@ -1,7 +1,6 @@
 <template>
 <v-app>
-    <h3 class="date"></h3>
-  <v-row justify="center">
+  <v-row justify="left">
     <v-date-picker id="cal" v-model="picker"></v-date-picker>
   </v-row>
 </v-app>
@@ -19,11 +18,10 @@
 
 <style scoped>
 #cal {
-    margin-top: 20px;
-    margin-left: 50%
+    margin-top: 10px;
+    margin-left: 10%;
+    position: absolute
+
 }
-.date{
-    margin-top: 150px;
-    margin-left: 50%
-}
+
 </style>

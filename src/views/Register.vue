@@ -14,7 +14,7 @@
     </v-snackbar>
     <v-form ref="form" @submit.prevent="submit">
       <v-container fluid>
-          <h1>Enter your details to start using bbBook</h1>
+          <h1 class="h1">Enter your details to start using bbBook</h1>
         <v-row>
           <v-col cols="12" sm="6">
             <v-text-field
@@ -227,5 +227,8 @@
 <style scoped>
 #reg {
     margin-top: 150px
+}
+.h1 {
+    color: #fc6b03
 }
 </style>
