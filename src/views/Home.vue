@@ -13,7 +13,7 @@
         <!-- <v-row cols="6" md="4"> -->
           <v-row class="tagline"><span>bbBook:</span> for all of baby's precious milestones</v-row>
           <div class="text-center">
-            <v-btn class="btn" rounded color="primary" dark to="/login">Join Now</v-btn>
+            <v-btn class="btn" rounded color="primary" dark to="/register">Join Now</v-btn>
           </div>
         <!-- </v-row> -->
       </v-flex>
